@@ -64,6 +64,7 @@ kind: Ingress
 metadata:
   name: yelb-ui-ingress
 spec:
+  ingressClassName: nginx
   rules:
     - host: yelb.loutre.tel
       http:
